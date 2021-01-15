@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.react-tel-input .form-control {
+  background: #e3e1e1 !important;
+  box-shadow: inset 0px 0.17vw 0.28vw rgba(0, 0, 0, 0.25) !important;
+  border-radius: 0.68vw !important;
+  width: 29.75vw !important;
+  height: 2.95vw !important;
+}
+
+.react-tel-input .flag-dropdown {
+  background: #e3e1e1 !important;
+  box-shadow: inset 0px 0.17vw 0.28vw rgba(0, 0, 0, 0.25) !important;
+  border-radius: 0.68vw 0px 0px 0.68vw !important;
+}
+
+.packagePurchase .makeStyles-cardStyle-25 {
+  height: 18vw;
+}
+
+.sidenav {
+  width: 20vw;
+  position: fixed;
+  z-index: 1;
+  top: 0vw;
+
+  background: #ec2227;
+  overflow-x: hidden;
+  opacity: 95%;
+  padding: 5vw 20vw 0vw 10vw;
+  height: 100vh;
+  background-image: url('../src/images/SidebarBackground2.png');
+  animation-name: sidenavAnimation2;
+  animation-duration: 0.5s;
+
+  left: -50vw;
+}
+
+.beforeClicked {
+  width: 20vw;
+  position: fixed;
+  z-index: 1;
+  top: 0vw;
+
+  background: #ec2227;
+  overflow-x: hidden;
+  opacity: 95%;
+  padding: 5vw 20vw 0vw 10vw;
+  height: 100vh;
+  background-image: url('../src/images/SidebarBackground2.png');
+  left: -50vw;
+}
+
+.sidenav2 {
+  width: 20vw;
+  position: fixed;
+  z-index: 1;
+  top: 0vw;
+
+  background: #ec2227;
+  overflow-x: hidden;
+  opacity: 95%;
+  padding: 5vw 20vw 0vw 10vw;
+  height: 100vh;
+  background-image: url('../src/images/SidebarBackground2.png');
+  left: 0vw;
+  animation-name: sidenavAnimation;
+  animation-duration: 0.5s;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav2 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+.sidenav a:hover {
+  color: #ffffff;
+}
+.sidenav2 a:hover {
+  color: #ffffff;
+}
+@keyframes sidenavAnimation {
+  0% {
+    left: -50vw;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes sidenavAnimation2 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: -50vw;
+    top: 0px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
